@@ -1,0 +1,10 @@
+E:\DotNetSolutions\RestApiFramework\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\DotNetSolutions\RestApiFramework\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\DotNetSolutions\RestApiFramework\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+E:\DotNetSolutions\RestApiFramework\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\DotNetSolutions\RestApiFramework\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\DotNetSolutions\RestApiFramework\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+E:\DotNetSolutions\RestApiFramework\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+E:\DotNetSolutions\RestApiFramework\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\DotNetSolutions\RestApiFramework\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\DotNetSolutions\RestApiFramework\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

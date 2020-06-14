@@ -1,0 +1,11 @@
+E:\DotNetSolutions\RestApiFramework\LOGIC\bin\Debug\netcoreapp3.1\LOGIC.deps.json
+E:\DotNetSolutions\RestApiFramework\LOGIC\bin\Debug\netcoreapp3.1\LOGIC.dll
+E:\DotNetSolutions\RestApiFramework\LOGIC\bin\Debug\netcoreapp3.1\LOGIC.pdb
+E:\DotNetSolutions\RestApiFramework\LOGIC\bin\Debug\netcoreapp3.1\DAL.dll
+E:\DotNetSolutions\RestApiFramework\LOGIC\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\DotNetSolutions\RestApiFramework\LOGIC\obj\Debug\netcoreapp3.1\LOGIC.csprojAssemblyReference.cache
+E:\DotNetSolutions\RestApiFramework\LOGIC\obj\Debug\netcoreapp3.1\LOGIC.AssemblyInfoInputs.cache
+E:\DotNetSolutions\RestApiFramework\LOGIC\obj\Debug\netcoreapp3.1\LOGIC.AssemblyInfo.cs
+E:\DotNetSolutions\RestApiFramework\LOGIC\obj\Debug\netcoreapp3.1\LOGIC.csproj.CopyComplete
+E:\DotNetSolutions\RestApiFramework\LOGIC\obj\Debug\netcoreapp3.1\LOGIC.dll
+E:\DotNetSolutions\RestApiFramework\LOGIC\obj\Debug\netcoreapp3.1\LOGIC.pdb
