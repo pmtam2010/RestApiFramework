@@ -1,0 +1,52 @@
+Virtual DOM
+Babel -> modern Javascript compiler
+
+React
+1. npx create-react-app counter-app OR
+npm init react-app my-app OR
+yarn create react-app my-app
+2. npm i bootstrap@4.1.1
+3. Install Simple React Snippet
+4. jsx expression is a Javascript object which can be a value, a function.
+5. Make lines of code bold, and then Ctrl-Shift-R
+6. Mount state: create and insert into DOM
+Mount : constructor, render, componentDidMount
+7. Update: when props of components get changes
+Update: render, componentDidUpdate
+8. Unmount: remove from the DOM
+
+https://www.youtube.com/watch?v=Ke90Tje7VS0
+
+Redux
+3 principles
+1. Application state is stored in a single object -> easy to debug and test.
+2. Application state is immutable. State can only be modified by providing an action.
+3. Reducers specifies how the action transform the state.
+4. Sass with Compass
+5. Webpack
+6. State in Redux comes from reducers. Reducers produce the state of your application.
+7. Remember two key points for avoiding mutations in Redux
+  - use concat(), slice(), or the spread operator for arrays
+  - use Object.assign() or object spread of objects
+
+https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#variables
+8. Jest is an open-source library for testing Javascript.
+9. Promises were introduced in ES2015 to solve the callback hell problem, but it is complex.
+10. local caching
+11. 2 types of components: function and class.
+12. npm install axios
+13. Reactstrap - React with Bootstrap (https://reactstrap.github.io/)
+
+
+Full project with React
+https://www.youtube.com/watch?v=ScDWrogElmo
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b255QGFjY2VkZS5jb20uYXUiLCJqdGkiOiJmZjk0OTdhZi1mZGVhLTRjZmItYTcxNi1hMDhlM2UxNzE5NTkiLCJlbWFpbCI6InRvbnlAYWNjZWRlLmNvbS5hdSIsImlkIjoiODAyN2NiZjYtN2IwYS00ZWUzLWEwMmItOGIwNDIyM2E3NmZmIiwibmJmIjoxNTgyNzE4NTUwLCJleHAiOjE1ODI3MjU3NDksImlhdCI6MTU4MjcxODU1MH0.maYXl6Avc5PqeNocmuZEvZEPSyayOk28W1oSGR-KDTc
+
+1pm on monday
+131 level 3 
+
+sales
+sales123
+
+

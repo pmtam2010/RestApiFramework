@@ -1,0 +1,57 @@
+1. Create Laravel app
+laravel new AppName
+or
+composer create-project laravel/laravel AppName
+2. php artisan make:controller PostsController
+3. php artisan make:model Post -m
+4. php artisan migrate
+5. php artisan tinker
+6. php artisan make:controller PostsController --resource
+7. php artisan route:list
+8. composer require laravelcollective/html
+9. composer require unisharp/laravel-ckeditor
+10. php artisan make:auth or (Laravel 6.2) composer require laravel/ui and php artisan ui react --auth (npm install && npm run dev)
+11. php artisan make:migration add_user_id_to_posts	
+12. php artisan migrate
+13. php artisan storage:link
+
+13.1 composer require laracademy/model-generator (generate models from existing database) or use Eloquent Model Generator or Reliese Laravel
+
+https://www.youtube.com/watch?v=6g8G3YQtQt4&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-&index=13
+
+14. php artisan key:generate
+15. npx create-react-app my-app (if Node version >= 8) -> Create React app with Redux
+
+https://www.youtube.com/watch?v=7kpDpTtLD-A&list=PLCQLrBX0OZkhUmXBelmR0tUFIea5KTvu5&index=2
+16. composer require tymon/jwt-auth:dev-develop --prefer-source
+17. npm install -g yarn
+18. yarn add @material-ui/core
+19. yarn add @material-ui/icons react-redux redux redux-thunk react-router-dom
+20. yarn add react-router
+21. php artisan jwt:secret (Generate secret key in Laravel)
+22. php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+23. https://packagist.org/packages/xethron/migrations-generator
+Generate migrations from existing database. 
+composer create-project laravel/laravel="5.6.*" Timesheet
+php artisan migrate:generate
+
+24. php artisan migrate:generate
+
+propel database:reverse
+propel build
+composer dump-autoload
+
+React
+1. npx create-react-app my-app OR
+npm init react-app my-app OR
+yarn create react-app my-app
+
+1. Begin with Laravel - https://www.youtube.com/watch?v=YyID0VuFS_U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=4
+2. composer create-project laravel/laravel="5.6.*" Timesheet
+3. Follow https://packagist.org/packages/propel/propel-laravel
+
+Work with Eloquent
+https://stackify.com/laravel-eloquent-tutorial/
+
+php artisan make:migration create_blogs_table --create=blogs
+

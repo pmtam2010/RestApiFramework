@@ -1,0 +1,89 @@
+Core features of ASP.NET CORE
+- Cross Platform (windows, macOS, Linux)
+- IIS, Apache, Docker, Self-host in your own process.
+- One programming model for MVC and Web API.
+
+- MVC and Web API inherit from Controller.
+IActionResult
+ViewResult, JsonResult
+- Dependency Injection
+- Testability
+- Open-Source
+- Modularity with Middleware Components.
+- Request and response pipelines are composed with Middleware
+- Basic HTML, CSS and C#
+1. Extension Method in C#.
+2. Tasks that CreateDefaultBuilder() performs
+  - Set up web server.
+  - Load host and application configuration from various config sources.
+  - Configure logging.
+3. Async and await.
+4. IIS (w3wp.exe), asp.net hosting models (InProcess or OutOfProcess)
+5. Kestrel web server handles HTTP requests. Kestrel uses Out of Process
+InProcess: w3wp.exe or iisexpress.exe -> better performance.
+Out of Process: dotnet.exe or two web servers.
+6. appsettings.json file: configuration sources in ASP.NET Core.
+  - Files (appsettings.json, appsettings.{Environment}.json
+  - User secrets.
+  - Environment variables.
+  - Command-line arguments.
+-> Use IConfiguration service.
+7. Middleware in ASP.NET Core
+  - Logging
+  - StaticFiles
+  - MVC
+8. Lamda expression
+9. Development environments
+ - Development
+ - Staging (identical to Production environment)
+ - Production
+-> Configure in launchSettings.json (ASPNETCORE_ENVIRONMENT: staging)
+10. Add new service by using Dependency Injection with IServiceCollection
+
+Steps
+1. Create a connection string in appsetting.json
+2. Create EmployeeContext
+3. Use Dependency Injection to add EmployeeContext in Startup.cs
+4. Create Employee model.
+5. Use Nuget Package Console to add migration (Add-Migration "InitialCreate")
+6. Update-Database
+https://www.youtube.com/watch?v=AHqIrJ_PlPY
+7. Microsoft.Extensions.Configuration.Json -> Nuget package.
+https://www.youtube.com/watch?v=PybhA-Uabbw (3 Tier .NET CORE application)
+8. Auto Mapper (https://dotnetcoretutorials.com/2017/09/23/using-automapper-asp-net-core/)
+http://localhost:50121/api/user/add?username=tonyphan&email=pmtam2010@test.com.au&password=123&authLevelId=1
+9. Dependency Injection with Autofac in 3 tier application (https://www.youtube.com/watch?v=mCUNrRtVVWY)
+10. Setup Swagger to document API.
+11. Extension method.
+12. Use async method in Web API
+13. Work with Azure Cosmos DB (Cosmonaut, Cosmonaut Dependency Injection)
+14. Azure Cosmos DB Emulator. (https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator)
+15. JWT (Json Web Token)
+16. Microsoft.AspNetCore.Identity, Microsoft.AspNetCore.Identity.UI, Microsoft.AspNetCore.Identity.EntityFrameworkCore
+17. Docker
+  - Image: create Dockerfile
+  - Container: Can CRUD a container using Docker API or CLI
+DockerID: tonyphan0903
+email: pmtam2010@gmail.com
+password: 12345678@Xx
+https://docs.docker.com/engine/examples/dotnetcore/
+18. Unit Test with NUnit
+19. Extension Method
+20. Lazy loading with Factory pattern.
+https://www.youtube.com/watch?v=r7WgjrTSlO8&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=30
+21. Lazy loading with using proxies (Microsoft.EntityFrameworkCore.Proxies NuGet package)
+22. UserManager and SignInManager (JWT using token)
+https://www.youtube.com/watch?v=TfarnVqnhX0&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=67
+23. Web API - enable CORS
+https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi
+http://dotnetcoretutorials.com/2017/01/03/enabling-cors-asp-net-core/
+
+root
+12345678@Xx
+admin
+12345678@Xx
+
+MySQL80
+
+
+Scaffold-DbContext "Server=DESKTOP-2DOEOSC\\MSSQLSERVER01;Database=Inex;Trusted_Connection=True;MultipleActiveResultSets=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
